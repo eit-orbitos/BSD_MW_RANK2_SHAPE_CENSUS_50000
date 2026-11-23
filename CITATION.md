@@ -2,15 +2,15 @@
 
 ## Manuscript
 
-Mladenovski, T. (2026). *A Reproducible Census of Rank-Two Mordell-Weil Lattice Shapes for Elliptic Curves of Conductor Below 50,000*. Version 0.3.3, author-updated manuscript candidate, 23 November 2026.
+Mladenovski, T. (2026). *A Reproducible Census of Rank-Two Mordell-Weil Lattice Shapes for Elliptic Curves of Conductor Below 50,000*. Version 0.3.4, preprint, 23 November 2026.
 
 Author identifier: https://orcid.org/0009-0009-8343-662X
 
-This candidate has no assigned public preprint DOI. Cite the actual DOI and public URL after they exist; do not substitute the older BSD calculator DOI. A matching provisional BibTeX entry is in `CITATION.bib`.
+Preprint DOI: https://doi.org/10.5281/zenodo.24484370. **Status: DOI_RESERVED_UNPUBLISHED** at preparation; the Zenodo draft has not yet been published. Do not substitute the older BSD calculator DOI. A matching BibTeX entry is in `CITATION.bib`.
 
 ## Data and code
 
-Identify the **study version V0.2** separately from manuscript version 0.3.3. The canonical archive is `BSD_MW_SHAPE_STUDY_V0_2.zip`, SHA-256 `1338bdf8ddb50de5d9278a14e207ee3c3f2c9ab211d929b3556d7adf92a0d4fc`. Use its own eventual dataset DOI when assigned.
+Identify the **study version V0.2** separately from manuscript version 0.3.4. The canonical archive is `BSD_MW_SHAPE_STUDY_V0_2.zip`, SHA-256 `1338bdf8ddb50de5d9278a14e207ee3c3f2c9ab211d929b3556d7adf92a0d4fc`. Dataset DOI: https://doi.org/10.5281/zenodo.24484435. This DOI is reserved and the corresponding Zenodo draft is unpublished at preparation.
 
 Retain attribution to J. E. Cremona's ecdata and to the literature/methods used. The data source is pinned at commit `25cec5ecfec8b9f016eb1631ac633194c2bed39f`; the upstream material remains under Artistic License 2.0.
 

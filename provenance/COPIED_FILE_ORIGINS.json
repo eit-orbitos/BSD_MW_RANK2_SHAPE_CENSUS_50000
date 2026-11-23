@@ -206,13 +206,13 @@
       "bytes": 1033
     },
     {
-      "path": "CITATION.md",
+      "path": "provenance/historical/v033/CITATION.md",
       "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/CITATION.md",
       "sha256": "cb2d40d39c929e98f15ba8561f0c8c2515f39c24d1d839bc65a541d5da507ed0",
       "bytes": 1729
     },
     {
-      "path": "CITATION.bib",
+      "path": "provenance/historical/v033/CITATION.bib",
       "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/CITATION.bib",
       "sha256": "8bcb3eb3ebbf0d864b12ff49a333f174661115edc77cd382ed54dc2843ed2165",
       "bytes": 310

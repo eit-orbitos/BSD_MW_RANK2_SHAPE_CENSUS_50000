@@ -1,7 +1,7 @@
 {
   "study_version": "V0.2",
-  "manuscript_version": "0.3.3",
-  "status": "Public GitHub source repository; dataset and preprint DOIs remain unassigned",
+  "manuscript_version": "0.3.4",
+  "status": "DOI_RESERVED_UNPUBLISHED",
   "archives": [
     {
       "filename": "BSD_MW_SHAPE_STUDY_V0_2.zip",
@@ -11,7 +11,8 @@
     {
       "filename": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip",
       "sha256": "843f948f6e844769138db872e13f935a14453c2351e5e52db94094afd6dd8130",
-      "bytes": 2061082
+      "bytes": 2061082,
+      "role": "Unchanged historical v0.3.3 candidate archive"
     }
   ],
   "input_commit": "25cec5ecfec8b9f016eb1631ac633194c2bed39f",
@@ -23,7 +24,24 @@
   ],
   "public_identifiers": {
     "repository": "https://github.com/eit-orbitos/BSD_MW_RANK2_SHAPE_CENSUS_50000",
-    "dataset_doi": null,
-    "preprint_doi": null
-  }
+    "dataset_doi": "10.5281/zenodo.24484435",
+    "preprint_doi": "10.5281/zenodo.24484370"
+  },
+  "status_details": "The GitHub source repository exists. Dataset and preprint DOIs are reserved; their Zenodo drafts remain unpublished at preparation.",
+  "zenodo_status": {
+    "dataset": "reserved_unpublished",
+    "preprint": "reserved_unpublished"
+  },
+  "current_manuscript_files": [
+    {
+      "path": "manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.tex",
+      "bytes": 26165,
+      "sha256": "a0fd6c548c950b3a22080a00561b19f07bc68701aae1478f7a6615d0e37b996b"
+    },
+    {
+      "path": "manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.pdf",
+      "bytes": 759953,
+      "sha256": "1a9987deb7d4a1c66647bb9938d47812f29fb181d06546810833b7e8392cd935"
+    }
+  ]
 }

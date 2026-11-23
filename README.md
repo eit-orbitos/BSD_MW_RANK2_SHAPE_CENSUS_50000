@@ -1,6 +1,6 @@
 # Rank-two Mordell–Weil lattice shape census
 
-**Study version V0.2 · Manuscript candidate v0.3.3**
+**Study version V0.2 · Manuscript preprint v0.3.4**
 
 This repository accompanies *A Reproducible Census of Rank-Two Mordell–Weil
 Lattice Shapes for Elliptic Curves of Conductor Below 50,000* by **Toni
@@ -16,15 +16,18 @@ BSD proof is claimed.
 
 ## Start here
 
-- [Manuscript PDF, version 0.3.3](manuscript/MW_Rank2_Census_v0_3_3_PUBLICATION_CANDIDATE.pdf)
+- [Manuscript PDF, version 0.3.4](manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.pdf)
 - [Reproduction instructions](REPRODUCING.md)
 - [Stored summaries](recorded_results/summary_table.csv) and [selection of class representatives](recorded_results/population_B_selection.csv)
 - [Citation instructions](CITATION.md) and [component licenses](licenses/LICENSE_SCOPE.md)
 
-The manuscript is a publication candidate. No human specialist peer review or
-journal acceptance is claimed. Dataset and preprint DOIs have not yet been
-assigned. The older BSD calculator is a separate work; its DOI does not identify
-this census.
+**Zenodo status: DOI_RESERVED_UNPUBLISHED.** The dataset DOI
+`10.5281/zenodo.24484435` and preprint DOI `10.5281/zenodo.24484370` are reserved;
+the corresponding Zenodo drafts are not yet published at this preparation step.
+The v0.3.4 manuscript adds these identifiers and the GitHub repository link to
+v0.3.3, with no scientific change. The prior v0.3.3 files remain as historical
+copies. No human specialist peer review or journal acceptance is claimed. The
+older BSD calculator is a separate work; its DOI does not identify this census.
 
 ## Contents and evidence
 

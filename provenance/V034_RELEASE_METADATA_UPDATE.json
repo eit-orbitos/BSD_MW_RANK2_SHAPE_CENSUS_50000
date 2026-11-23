@@ -1,0 +1,111 @@
+{
+  "prepared_date": "2026-11-23",
+  "study_version": "0.2",
+  "previous_manuscript_version": "0.3.3",
+  "manuscript_version": "0.3.4",
+  "status": "DOI_RESERVED_UNPUBLISHED",
+  "identifiers": {
+    "dataset_doi": "10.5281/zenodo.24484435",
+    "preprint_doi": "10.5281/zenodo.24484370",
+    "repository": "https://github.com/eit-orbitos/BSD_MW_RANK2_SHAPE_CENSUS_50000"
+  },
+  "identifier_evidence": "Zenodo draft reservations supplied by the publication coordinator; no public Zenodo access is claimed by this local preparation.",
+  "metadata_edits": [
+    "Title-line version/status from v0.3.3 publication candidate to v0.3.4 preprint",
+    "Remove publication-candidate qualifier from availability heading",
+    "Replace unassigned-dataset-DOI sentence with the two reserved DOI identifiers and GitHub source link"
+  ],
+  "derivative_files": [
+    {
+      "path": "CITATION.md",
+      "source_path": "CITATION.md",
+      "source_sha256": "cb2d40d39c929e98f15ba8561f0c8c2515f39c24d1d839bc65a541d5da507ed0",
+      "sha256": "958e9ecf573c13e20991643ce1421ad92e619af460ccb9ae417750a17bba0178",
+      "bytes": 1831,
+      "change": "release metadata and reserved identifiers; no scientific result change"
+    },
+    {
+      "path": "CITATION.bib",
+      "source_path": "CITATION.bib",
+      "source_sha256": "8bcb3eb3ebbf0d864b12ff49a333f174661115edc77cd382ed54dc2843ed2165",
+      "sha256": "1adaf1c7db18ade18f20d1e2f8572d5e2091765f572c2544a6f66c5fcecaeac8",
+      "bytes": 401,
+      "change": "release metadata and reserved identifiers; no scientific result change"
+    },
+    {
+      "path": "CITATION.cff",
+      "source_path": "CITATION.cff",
+      "source_sha256": "98c17fa2f12c4c35c9a4c240206e5ecdfce7a4e6522f590d3e0580a531397452",
+      "sha256": "a3ac3ee4c474b00bd2e479b7d027200c1bc2aaf2abdf0d39fa6fdc9374e897a0",
+      "bytes": 1279,
+      "change": "release metadata and reserved identifiers; no scientific result change"
+    },
+    {
+      "path": "README.md",
+      "source_path": "README.md",
+      "source_sha256": "80c9cfb4e4d17f406db7131625e7b3e8c9c061450633b00f1f02074ef26a61e1",
+      "sha256": "13e4af9aadf44013cb4bac9db942abb993cfb6a9919c3764cdd7aa8b33641fc5",
+      "bytes": 4798,
+      "change": "release metadata and reserved identifiers; no scientific result change"
+    },
+    {
+      "path": "REPRODUCING.md",
+      "source_path": "REPRODUCING.md",
+      "source_sha256": "4d79529a25ae7cb50c53b2b0a8c2fc7c9e5a338f7ca58a1e9fe2238a15d71c7b",
+      "sha256": "6384284dd1e1ffe9bd4bef8f6221ce5a18dcc23e3c73bf7e5e9be346124d3174",
+      "bytes": 4040,
+      "change": "release metadata and reserved identifiers; no scientific result change"
+    },
+    {
+      "path": "provenance/CANONICAL_ARCHIVES.json",
+      "source_path": "provenance/CANONICAL_ARCHIVES.json",
+      "source_sha256": "0b04770a05d9fd45e2431104a8b1085c00943b275378486b7cbd0cdebc504962",
+      "sha256": "cfb659760af70287b27ef8cc38b05fef31341706fa55cb6e293f3051ac570993",
+      "bytes": 1662,
+      "change": "release metadata and reserved identifiers; no scientific result change"
+    },
+    {
+      "path": "manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.tex",
+      "source_path": "manuscript/MW_Rank2_Census_v0_3_3_PUBLICATION_CANDIDATE.tex",
+      "source_sha256": "bf770f03f36ffc1fea80c4b133cce09dc9f2c3e4d6fc1479a32380215d35ab78",
+      "sha256": "a0fd6c548c950b3a22080a00561b19f07bc68701aae1478f7a6615d0e37b996b",
+      "bytes": 26165,
+      "change": "three TeX metadata edits and corresponding compiled PDF; science unchanged"
+    },
+    {
+      "path": "manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.pdf",
+      "source_path": "manuscript/MW_Rank2_Census_v0_3_3_PUBLICATION_CANDIDATE.pdf",
+      "source_sha256": "07baf81013bd4c7239bf078c3d81267023e55e3f33e6591261840e6b769fd635",
+      "sha256": "1a9987deb7d4a1c66647bb9938d47812f29fb181d06546810833b7e8392cd935",
+      "bytes": 759953,
+      "change": "three TeX metadata edits and corresponding compiled PDF; science unchanged"
+    }
+  ],
+  "preservation": {
+    "v033_candidate_zip_sha256": "843f948f6e844769138db872e13f935a14453c2351e5e52db94094afd6dd8130",
+    "prior_upload_kit_sha256": "b1dd4ee422081ad2c4f0989e902e367ea279fef642e35111c5f7edd309524539",
+    "canonical_study_zip_sha256": "1338bdf8ddb50de5d9278a14e207ee3c3f2c9ab211d929b3556d7adf92a0d4fc",
+    "scientific_source_data_figures_and_licenses_unchanged": true,
+    "prior_v033_pdf_and_tex_retained_in_deployment": true
+  },
+  "changed_or_added_deployment_paths_before_provenance_and_manifests": [
+    "CITATION.bib",
+    "CITATION.cff",
+    "CITATION.md",
+    "README.md",
+    "REPRODUCING.md",
+    "manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.pdf",
+    "manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.tex",
+    "provenance/CANONICAL_ARCHIVES.json",
+    "provenance/COPIED_FILE_ORIGINS.json",
+    "provenance/V033_TO_V034_METADATA_ONLY.patch",
+    "provenance/V034_LATEX_BUILD_FINAL.log",
+    "provenance/V034_VERIFICATION.json",
+    "provenance/historical/v033/CITATION.bib",
+    "provenance/historical/v033/CITATION.cff",
+    "provenance/historical/v033/CITATION.md"
+  ],
+  "verification": "V034_VERIFICATION.json; final LaTeX build log supplied",
+  "remote_mutations": "NONE; GitHub/Zenodo uploads and persistence are handled separately by the coordinator",
+  "derivative_files_context": "Paths in derivative_files are relative to the separate deployment_v034_ready repository tree. The compact PDF/source output package has its own README and manifest."
+}

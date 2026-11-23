@@ -1,0 +1,26 @@
+--- MW_Rank2_Census_v0_3_3_PUBLICATION_CANDIDATE.tex
++++ MW_Rank2_Census_v0_3_4_PREPRINT.tex
+@@ -21,7 +21,7 @@
+ \newcommand{\Cl}{\operatorname{Cl}_2}
+ \title{A Reproducible Census of Rank-Two Mordell--Weil Lattice Shapes\\for Elliptic Curves of Conductor Below 50,000}
+ \author{Toni Mladenovski\\\small Independent researcher\\\small ORCID: \href{https://orcid.org/0009-0009-8343-662X}{0009-0009-8343-662X}}
+-\date{23 November 2026\\\small v0.3.3 PUBLICATION CANDIDATE --- not peer reviewed}
++\date{23 November 2026\\\small v0.3.4 PREPRINT --- not peer reviewed}
+ \begin{document}
+ \maketitle
+ \begin{abstract}
+@@ -157,12 +157,12 @@
+ 
+ Within these limits, the delivered data provide a reproducible comparison of two specific conductor-bounded weighting choices. Future work could extend the conductor cutoff and analyze lower bounds on canonical heights, regulator size, discriminant sign, and isogeny-class stratification to investigate the shortened $y$ tail. A larger, methodologically distinct computation is necessary before attributing the departure to an asymptotic arithmetic phenomenon.
+ 
+-\section*{Data and code availability (publication candidate)}
++\section*{Data and code availability}
+ The V0.2 data and code are currently preserved as the ZIP archive\begin{center}\footnotesize\texttt{BSD\_MW\_SHAPE\_STUDY\_V0\_2.zip}\end{center}with SHA-256
+ \begin{center}\footnotesize\texttt{1338bdf8ddb50de5d9278a14e207ee3c3f2c9ab211d929b3556d7adf92a0d4fc}.\end{center}
+ The corresponding unchanged V0.1 archive has SHA-256
+ \begin{center}\footnotesize\texttt{ce2a7de2585b87996acc13b404fb36680631c6b93aef473c0d8499307b273d55}.\end{center}
+-The package includes pinned sources and hashes, exact point checks, test logs, per-curve results and figures. A public dataset DOI has \emph{not yet been assigned}. Redistributed \texttt{ecdata} inputs retain Artistic License~2.0 \cite{CremonaData}; the supplement supplies the unchanged upstream license, README and attribution. The author's original software is under \href{https://polyformproject.org/licenses/noncommercial/1.0.0}{PolyForm Noncommercial~1.0.0}. The original manuscript, figures and documentation, and any author-held licensable rights in the original result compilation, are under Creative Commons Attribution--NonCommercial~4.0 International (\href{https://creativecommons.org/licenses/by-nc/4.0/}{CC BY-NC~4.0}). Separately attributed third-party material is excluded from those grants. The older BSD calculator release v3.15.4 is a separate work; its DOI does not identify this census.
++The package includes pinned sources and hashes, exact point checks, test logs, per-curve results and figures. The dataset record for Study~V0.2 is identified by \href{https://doi.org/10.5281/zenodo.24484435}{doi:10.5281/zenodo.24484435}; this preprint is identified by \href{https://doi.org/10.5281/zenodo.24484370}{doi:10.5281/zenodo.24484370}. The accompanying \href{https://github.com/eit-orbitos/BSD_MW_RANK2_SHAPE_CENSUS_50000}{GitHub source repository} contains the reproducible code, selected stored summaries and manuscript sources. Redistributed \texttt{ecdata} inputs retain Artistic License~2.0 \cite{CremonaData}; the supplement supplies the unchanged upstream license, README and attribution. The author's original software is under \href{https://polyformproject.org/licenses/noncommercial/1.0.0}{PolyForm Noncommercial~1.0.0}. The original manuscript, figures and documentation, and any author-held licensable rights in the original result compilation, are under Creative Commons Attribution--NonCommercial~4.0 International (\href{https://creativecommons.org/licenses/by-nc/4.0/}{CC BY-NC~4.0}). Separately attributed third-party material is excluded from those grants. The older BSD calculator release v3.15.4 is a separate work; its DOI does not identify this census.
+ 
+ \section*{AI assistance, authorship and verification disclosure}
+ ChatGPT (OpenAI) assisted with manuscript organization and drafting from author-supplied material. Claude (Anthropic) developed and executed the V0.1/V0.2 study pipeline and repairs, including PARI calculations. Kimi (Moonshot AI) reran V0.2 and checked its output; ChatGPT checked files, summaries and V0.1--V0.2 archive consistency. Kimi and Claude reviewed manuscript v0.3, and Claude proposed v0.3.1. ChatGPT reconciled those reviews, checked input hashes, and recomputed stored-data summaries and reference quantities; no new PARI heights were computed in that reconciliation. Claude's software review shares authorship with the pipeline; the rerun and direct-GP checks share the PARI height engine. These are AI-assisted technical checks, not human peer review. Toni Mladenovski is the sole human author and retains responsibility for the manuscript and conclusions. No AI system is listed as an author.

@@ -1,0 +1,67 @@
+{
+  "status": "PASS_METADATA_AND_LAYOUT_CHECKS",
+  "zenodo_status": "DOI_RESERVED_UNPUBLISHED",
+  "new_pdf": {
+    "path": "manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.pdf",
+    "bytes": 759953,
+    "sha256": "1a9987deb7d4a1c66647bb9938d47812f29fb181d06546810833b7e8392cd935",
+    "pages": 8
+  },
+  "new_tex": {
+    "path": "manuscript/MW_Rank2_Census_v0_3_4_PREPRINT.tex",
+    "bytes": 26165,
+    "sha256": "a0fd6c548c950b3a22080a00561b19f07bc68701aae1478f7a6615d0e37b996b"
+  },
+  "latex_compilation_exit_codes": [
+    0,
+    0
+  ],
+  "overfull_warnings": 0,
+  "undefined_reference_warnings": 0,
+  "underfull_warnings": [
+    "Underfull \\hbox (badness 8113) in paragraph at lines 183--184",
+    "Underfull \\hbox (badness 7168) in paragraph at lines 183--184"
+  ],
+  "underfull_warnings_identical_to_v033": true,
+  "exact_reversal_of_three_metadata_changes_matches_v033_tex": true,
+  "all_other_manuscript_source_bytes_unchanged": true,
+  "new_links_present_in_pdf": [
+    "https://arxiv.org/abs/math/0608766",
+    "https://arxiv.org/abs/math/0608766v2",
+    "https://creativecommons.org/licenses/by-nc/4.0/",
+    "https://doi.org/10.1080/10586458.2008.10129019",
+    "https://doi.org/10.5281/zenodo.24484370",
+    "https://doi.org/10.5281/zenodo.24484435",
+    "https://github.com/JohnCremona/ecdata",
+    "https://github.com/eit-orbitos/BSD_MW_RANK2_SHAPE_CENSUS_50000",
+    "https://johncremona.github.io/ecdata/",
+    "https://magma.maths.usyd.edu.au/~watkins/papers/heur.pdf",
+    "https://orcid.org/0009-0009-8343-662X",
+    "https://pari.math.u-bordeaux.fr/",
+    "https://polyformproject.org/licenses/noncommercial/1.0.0"
+  ],
+  "visual_review": {
+    "rendered_pages": 8,
+    "inspected_all_pages": true,
+    "changed_pages_inspected_separately": [
+      1,
+      7,
+      8
+    ],
+    "pages_pixel_identical_to_v033": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "clipping_overlap_or_overflow_observed": false
+  },
+  "unchanged_science_software_data_figures_licenses_files": 30,
+  "copied_origin_entries_verified": 37,
+  "v033_pdf_and_tex_retained_unchanged": true,
+  "CITATION_cff_yaml_and_dataset_doi_check": "PASS",
+  "remote_mutations": "NONE by this local preparation",
+  "fresh_PARI_or_numerical_census": "NOT_EXECUTED; metadata-only revision",
+  "verification_context": "Manuscript and PDF checks apply to both output and deployment copies; repository/source-origin checks refer to the separate deployment_v034_ready tree."
+}
