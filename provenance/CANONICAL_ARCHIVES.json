@@ -1,18 +1,26 @@
 {
   "study_version": "V0.2",
   "manuscript_version": "0.3.4",
-  "status": "DOI_RESERVED_UNPUBLISHED",
+  "status": "PUBLISHED",
   "archives": [
     {
       "filename": "BSD_MW_SHAPE_STUDY_V0_2.zip",
       "sha256": "1338bdf8ddb50de5d9278a14e207ee3c3f2c9ab211d929b3556d7adf92a0d4fc",
-      "bytes": 20831592
+      "bytes": 20831592,
+      "download_url": "https://zenodo.org/records/24484435/files/BSD_MW_SHAPE_STUDY_V0_2.zip?download=1"
     },
     {
       "filename": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip",
       "sha256": "843f948f6e844769138db872e13f935a14453c2351e5e52db94094afd6dd8130",
       "bytes": 2061082,
       "role": "Unchanged historical v0.3.3 candidate archive"
+    },
+    {
+      "filename": "MW_CENSUS_V0_2_LICENSE_COMPANION.zip",
+      "sha256": "dbadbb8aa32f03857dc7abb2ce5e58b4fb58842c66677a59f7f1a58315740505",
+      "bytes": 20039,
+      "role": "Unchanged component-license companion distributed with the canonical study archive",
+      "download_url": "https://zenodo.org/records/24484435/files/MW_CENSUS_V0_2_LICENSE_COMPANION.zip?download=1"
     }
   ],
   "input_commit": "25cec5ecfec8b9f016eb1631ac633194c2bed39f",
@@ -25,12 +33,15 @@
   "public_identifiers": {
     "repository": "https://github.com/eit-orbitos/BSD_MW_RANK2_SHAPE_CENSUS_50000",
     "dataset_doi": "10.5281/zenodo.24484435",
-    "preprint_doi": "10.5281/zenodo.24484370"
+    "preprint_doi": "10.5281/zenodo.24484370",
+    "dataset_record": "https://zenodo.org/records/24484435",
+    "preprint_record": "https://zenodo.org/records/24484370",
+    "source_snapshot": "https://github.com/eit-orbitos/BSD_MW_RANK2_SHAPE_CENSUS_50000/tree/c54966e753b7317a00fcac39793f74d3b3a65db4"
   },
-  "status_details": "The GitHub source repository exists. Dataset and preprint DOIs are reserved; their Zenodo drafts remain unpublished at preparation.",
+  "status_details": "Study V0.2 and manuscript preprint v0.3.4 are published as distinct Zenodo records; the GitHub source snapshot referenced by both records remains unchanged.",
   "zenodo_status": {
-    "dataset": "reserved_unpublished",
-    "preprint": "reserved_unpublished"
+    "dataset": "published",
+    "preprint": "published"
   },
   "current_manuscript_files": [
     {
@@ -43,5 +54,6 @@
       "bytes": 759953,
       "sha256": "1a9987deb7d4a1c66647bb9938d47812f29fb181d06546810833b7e8392cd935"
     }
-  ]
+  ],
+  "publication_evidence": "provenance/ZENODO_PUBLICATION.json"
 }

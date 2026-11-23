@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite study V0.2 and the manuscript separately as described in CITATION.md. Dataset and preprint DOIs are reserved; Zenodo records remain unpublished at preparation."
+message: "Please cite the published study V0.2 dataset and manuscript preprint v0.3.4 separately as described in CITATION.md."
 type: dataset
 title: "Rank-Two Mordell–Weil Lattice Shape Census for Elliptic Curves of Conductor Below 50,000 (Study V0.2)"
 version: "0.2"
+date-released: "2026-11-23"
+url: "https://zenodo.org/records/24484435"
 authors:
   - family-names: Mladenovski
     given-names: Toni

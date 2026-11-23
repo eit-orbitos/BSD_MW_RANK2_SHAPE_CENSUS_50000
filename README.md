@@ -21,9 +21,14 @@ BSD proof is claimed.
 - [Stored summaries](recorded_results/summary_table.csv) and [selection of class representatives](recorded_results/population_B_selection.csv)
 - [Citation instructions](CITATION.md) and [component licenses](licenses/LICENSE_SCOPE.md)
 
-**Zenodo status: DOI_RESERVED_UNPUBLISHED.** The dataset DOI
-`10.5281/zenodo.24484435` and preprint DOI `10.5281/zenodo.24484370` are reserved;
-the corresponding Zenodo drafts are not yet published at this preparation step.
+**Published on Zenodo:** [Dataset V0.2](https://doi.org/10.5281/zenodo.24484435)
+and [preprint v0.3.4](https://doi.org/10.5281/zenodo.24484370).
+The dataset record contains the unchanged study archive, its license companion,
+and the SHA-256 checksum list; the preprint record contains the manuscript PDF.
+The [source snapshot accompanying these records](https://github.com/eit-orbitos/BSD_MW_RANK2_SHAPE_CENSUS_50000/tree/c54966e753b7317a00fcac39793f74d3b3a65db4)
+remains available. The current publication record is documented in
+`provenance/ZENODO_PUBLICATION.json`; earlier preparation reports retain their
+historical status at the time of preparation.
 The v0.3.4 manuscript adds these identifiers and the GitHub repository link to
 v0.3.3, with no scientific change. The prior v0.3.3 files remain as historical
 copies. No human specialist peer review or journal acceptance is claimed. The

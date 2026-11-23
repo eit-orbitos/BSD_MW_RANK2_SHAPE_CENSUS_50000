@@ -6,11 +6,11 @@ Mladenovski, T. (2026). *A Reproducible Census of Rank-Two Mordell-Weil Lattice 
 
 Author identifier: https://orcid.org/0009-0009-8343-662X
 
-Preprint DOI: https://doi.org/10.5281/zenodo.24484370. **Status: DOI_RESERVED_UNPUBLISHED** at preparation; the Zenodo draft has not yet been published. Do not substitute the older BSD calculator DOI. A matching BibTeX entry is in `CITATION.bib`.
+Preprint DOI: https://doi.org/10.5281/zenodo.24484370. Published on Zenodo on 23 November 2026. Do not substitute the older BSD calculator DOI. Separate manuscript and dataset BibTeX entries are in `CITATION.bib`.
 
 ## Data and code
 
-Identify the **study version V0.2** separately from manuscript version 0.3.4. The canonical archive is `BSD_MW_SHAPE_STUDY_V0_2.zip`, SHA-256 `1338bdf8ddb50de5d9278a14e207ee3c3f2c9ab211d929b3556d7adf92a0d4fc`. Dataset DOI: https://doi.org/10.5281/zenodo.24484435. This DOI is reserved and the corresponding Zenodo draft is unpublished at preparation.
+Identify the **study version V0.2** separately from manuscript version 0.3.4. The canonical archive is `BSD_MW_SHAPE_STUDY_V0_2.zip`, SHA-256 `1338bdf8ddb50de5d9278a14e207ee3c3f2c9ab211d929b3556d7adf92a0d4fc`. Dataset DOI: https://doi.org/10.5281/zenodo.24484435. The dataset is published on Zenodo. Its record includes the unchanged archive, the component-license companion and the SHA-256 checksum list.
 
 Retain attribution to J. E. Cremona's ecdata and to the literature/methods used. The data source is pinned at commit `25cec5ecfec8b9f016eb1631ac633194c2bed39f`; the upstream material remains under Artistic License 2.0.
 
