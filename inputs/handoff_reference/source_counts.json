@@ -1,0 +1,65 @@
+{
+  "commit": "25cec5ecfec8b9f016eb1631ac633194c2bed39f",
+  "blocks": [
+    {
+      "block": "00000-09999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allgens/allgens.00000-09999",
+      "sha256": "d4200efe89ce8cb7874040711878fa11f04468e3181e9b8e43fd0f84ae0f1175",
+      "allrows": 64687,
+      "rank2curves": 2388,
+      "rank2classes": 1969,
+      "nontrivial_torsion": 651,
+      "nonintegral": 254,
+      "torsion_example": "1088 j 1 [0,1,0,-25,39] 2 [2] [1:4:1] [5:8:1] [3:0:1]",
+      "nonintegral_example": "817 a 1 [0,1,1,1,6] 2 [] [4:9:1] [-6:15:8]"
+    },
+    {
+      "block": "10000-19999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allgens/allgens.10000-19999",
+      "sha256": "4fb94e594753a16f84f7383cb3073dedf92ac14e6d65512cd4acba4b8fafa699",
+      "allrows": 67848,
+      "rank2curves": 4410,
+      "rank2classes": 3490,
+      "nontrivial_torsion": 1404,
+      "nonintegral": 650,
+      "torsion_example": "10025 b 1 [1,-1,0,-167,616] 2 [2] [24:88:1] [-58:329:8] [4:-2:1]",
+      "nonintegral_example": "10025 b 1 [1,-1,0,-167,616] 2 [2] [24:88:1] [-58:329:8] [4:-2:1]"
+    },
+    {
+      "block": "20000-29999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allgens/allgens.20000-29999",
+      "sha256": "925107385e14e0b425688fa864afa799c8b4dba195a622f2920b8cfeb2d64ca2",
+      "allrows": 66995,
+      "rank2curves": 5212,
+      "rank2classes": 4183,
+      "nontrivial_torsion": 1599,
+      "nonintegral": 814,
+      "torsion_example": "20016 n 1 [0,0,0,-1107,-13230] 2 [2] [39:54:1] [-17:26:1] [-15:0:1]",
+      "nonintegral_example": "20022 h 2 [1,0,1,-1222,16160] 2 [2] [4:104:1] [1108:479:64] [174:-91:8]"
+    },
+    {
+      "block": "30000-39999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allgens/allgens.30000-39999",
+      "sha256": "eef6d75665112a88244fb1ae7e06019f8e4a8e59bfa47db466aa9e12a9630ca0",
+      "allrows": 66561,
+      "rank2curves": 5671,
+      "rank2classes": 4517,
+      "nontrivial_torsion": 1834,
+      "nonintegral": 986,
+      "torsion_example": "30010 b 1 [1,-1,0,-49,93] 2 [2] [7:4:1] [-7:11:1] [2:-1:1]",
+      "nonintegral_example": "30010 b 2 [1,-1,0,151,533] 2 [2] [-1:20:1] [-69:337:27] [-26:13:8]"
+    },
+    {
+      "block": "40000-49999",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/allgens/allgens.40000-49999",
+      "sha256": "3e85424d1d14f8de8f81f8e7ec632109dd34fd47c9192f433cbb426f4ffca1f1",
+      "allrows": 66275,
+      "rank2curves": 5931,
+      "rank2classes": 4727,
+      "nontrivial_torsion": 1939,
+      "nonintegral": 1115,
+      "torsion_example": "40005 e 1 [1,-1,0,-1125,0] 2 [2] [-12:114:1] [36:54:1] [0:0:1]",
+      "nonintegral_example": "40005 e 2 [1,-1,0,4500,-3375] 2 [2] [48:543:1] [654:7287:8] [6:-3:8]"
+    }
+  ]
+}

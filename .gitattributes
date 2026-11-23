@@ -1,0 +1,2 @@
+# Preserve canonical source and data bytes on checkout.
+* -text

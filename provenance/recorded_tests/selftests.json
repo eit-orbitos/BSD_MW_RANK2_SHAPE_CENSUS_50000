@@ -1,0 +1,986 @@
+{
+ "tests": [
+  {
+   "name": "817a1 generator 2 parsed as (-3/4, 15/8)",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "817a1 both free generators on curve (exact)",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "817a1 NEGATIVE: (X/Z^2, Y/Z^3) convention gives off-curve point",
+   "pass": true,
+   "detail": "(-3/32, 15/512)"
+  },
+  {
+   "name": "1088j1 torsion structure parsed as [2], not as a point",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "1088j1 free generators are [1:4:1],[5:8:1]",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "1088j1 torsion generator [3:0:1] separate and on curve",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "1088j1 free generators on curve (exact)",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "NEGATIVE parse rejects: missing torsion generator",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "NEGATIVE parse rejects: missing free generator",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "NEGATIVE parse rejects: 4 a-invariants",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "NEGATIVE parse rejects: Z = 0",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (exact): x, y, s as expected",
+   "pass": true,
+   "detail": {
+    "x": "0",
+    "y": "1.0000000000000000000000000000000000000",
+    "s": "1"
+   }
+  },
+  {
+   "name": "reference square (exact) sheared by [1, 7; 0, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (exact) sheared by [2, 1; 1, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (exact) sheared by [5, 2; 2, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (exact) sheared by [0, 1; 1, 0]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (exact) sheared by [-3, 8; 1, -3]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (256-bit): x, y, s as expected",
+   "pass": true,
+   "detail": {
+    "x": "0",
+    "y": "1.0000000000000000000000000000000000000",
+    "s": "1.0000000000000000000000000000000000000"
+   }
+  },
+  {
+   "name": "reference square (256-bit) sheared by [1, 7; 0, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (256-bit) sheared by [2, 1; 1, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (256-bit) sheared by [5, 2; 2, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (256-bit) sheared by [0, 1; 1, 0]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference square (256-bit) sheared by [-3, 8; 1, -3]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (exact): x, y, s as expected",
+   "pass": true,
+   "detail": {
+    "x": "1/2",
+    "y": "0.86602540378443864676372317075293618347",
+    "s": "3/4"
+   }
+  },
+  {
+   "name": "reference hexagonal (exact) sheared by [1, 7; 0, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (exact) sheared by [2, 1; 1, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (exact) sheared by [5, 2; 2, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (exact) sheared by [0, 1; 1, 0]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (exact) sheared by [-3, 8; 1, -3]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (256-bit): x, y, s as expected",
+   "pass": true,
+   "detail": {
+    "x": "0.50000000000000000000000000000000000000",
+    "y": "0.86602540378443864676372317075293618347",
+    "s": "0.75000000000000000000000000000000000000"
+   }
+  },
+  {
+   "name": "reference hexagonal (256-bit) sheared by [1, 7; 0, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (256-bit) sheared by [2, 1; 1, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (256-bit) sheared by [5, 2; 2, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (256-bit) sheared by [0, 1; 1, 0]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference hexagonal (256-bit) sheared by [-3, 8; 1, -3]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (exact) sheared by [1, 7; 0, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (exact) sheared by [2, 1; 1, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (exact) sheared by [5, 2; 2, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (exact) sheared by [0, 1; 1, 0]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (exact) sheared by [-3, 8; 1, -3]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (256-bit) sheared by [1, 7; 0, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (256-bit) sheared by [2, 1; 1, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (256-bit) sheared by [5, 2; 2, 1]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (256-bit) sheared by [0, 1; 1, 0]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "reference generic_reduced (256-bit) sheared by [-3, 8; 1, -3]: |detU|=1, Gred=U~GU, same (h1,h2,|b|), inequalities",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "hexagonal: both margins exactly 0 (boundary flagged)",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "square: h1 == h2 margin exactly 0 and x exactly 0",
+   "pass": true,
+   "detail": null
+  },
+  {
+   "name": "all 19 historical labels present in pinned allgens 00000-09999",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "historical 1001c1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "2.416e-16",
+    "h1_rel": "5.755e-16",
+    "h2_rel": "3.588e-16",
+    "absb_rel": "1.114e-15",
+    "reg_rel": "2.149e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 389a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "2.838e-16",
+    "h1_rel": "1.473e-16",
+    "h2_rel": "9.704e-16",
+    "absb_rel": "8.245e-16",
+    "reg_rel": "1.629e-15",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 433a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "4.986e-16",
+    "h1_rel": "3.479e-16",
+    "h2_rel": "8.752e-16",
+    "absb_rel": "1.055e-15",
+    "reg_rel": "1.150e-15",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 446d1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "3.289e-16",
+    "h1_rel": "9.981e-16",
+    "h2_rel": "6.693e-16",
+    "absb_rel": "9.331e-16",
+    "reg_rel": "5.036e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 563a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "3.119e-16",
+    "h1_rel": "2.392e-15",
+    "h2_rel": "3.088e-15",
+    "absb_rel": "6.998e-16",
+    "reg_rel": "2.081e-15",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 571b1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "8.564e-17",
+    "h1_rel": "1.023e-15",
+    "h2_rel": "2.242e-16",
+    "absb_rel": "2.101e-17",
+    "reg_rel": "3.851e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 643a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "4.250e-16",
+    "h1_rel": "1.599e-15",
+    "h2_rel": "2.702e-16",
+    "absb_rel": "8.197e-16",
+    "reg_rel": "3.444e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 655a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "2.386e-16",
+    "h1_rel": "1.459e-15",
+    "h2_rel": "5.292e-17",
+    "absb_rel": "2.872e-15",
+    "reg_rel": "3.987e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 664a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "7.530e-17",
+    "h1_rel": "5.794e-17",
+    "h2_rel": "4.050e-16",
+    "absb_rel": "4.378e-16",
+    "reg_rel": "5.439e-17",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 681c1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "2.389e-16",
+    "h1_rel": "1.903e-15",
+    "h2_rel": "3.961e-17",
+    "absb_rel": "3.259e-16",
+    "reg_rel": "1.973e-15",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 707a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "1.964e-16",
+    "h1_rel": "2.417e-15",
+    "h2_rel": "8.074e-17",
+    "absb_rel": "1.242e-17",
+    "reg_rel": "4.236e-15",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 709a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "4.779e-16",
+    "h1_rel": "1.692e-16",
+    "h2_rel": "1.740e-16",
+    "absb_rel": "1.988e-16",
+    "reg_rel": "1.276e-15",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 718b1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "2.118e-16",
+    "h1_rel": "6.176e-16",
+    "h2_rel": "6.811e-16",
+    "absb_rel": "4.741e-16",
+    "reg_rel": "4.065e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 794a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "3.484e-16",
+    "h1_rel": "8.526e-16",
+    "h2_rel": "3.931e-16",
+    "absb_rel": "1.457e-16",
+    "reg_rel": "1.753e-15",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 817a1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "4.188e-17",
+    "h1_rel": "7.005e-16",
+    "h2_rel": "7.875e-17",
+    "absb_rel": "7.201e-16",
+    "reg_rel": "8.142e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 916c1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "2.608e-16",
+    "h1_rel": "8.224e-16",
+    "h2_rel": "8.689e-16",
+    "absb_rel": "5.370e-16",
+    "reg_rel": "1.303e-15",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 944e1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "4.221e-16",
+    "h1_rel": "1.077e-15",
+    "h2_rel": "5.073e-16",
+    "absb_rel": "3.511e-16",
+    "reg_rel": "1.084e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 997b1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "1.956e-17",
+    "h1_rel": "3.989e-16",
+    "h2_rel": "2.534e-15",
+    "absb_rel": "3.722e-15",
+    "reg_rel": "2.042e-17",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "name": "historical 997c1 agrees with V3.15.4 CSV at rounded-input tolerance 1e-12",
+   "pass": true,
+   "detail": {
+    "s_abs": "9.095e-17",
+    "h1_rel": "9.814e-16",
+    "h2_rel": "2.693e-15",
+    "absb_rel": "5.607e-16",
+    "reg_rel": "1.473e-16",
+    "U": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ]
+   }
+  }
+ ],
+ "status": "PASS",
+ "historical_19": {
+  "1001c1": {
+   "s_abs": "2.416e-16",
+   "h1_rel": "5.755e-16",
+   "h2_rel": "3.588e-16",
+   "absb_rel": "1.114e-15",
+   "reg_rel": "2.149e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "389a1": {
+   "s_abs": "2.838e-16",
+   "h1_rel": "1.473e-16",
+   "h2_rel": "9.704e-16",
+   "absb_rel": "8.245e-16",
+   "reg_rel": "1.629e-15",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "433a1": {
+   "s_abs": "4.986e-16",
+   "h1_rel": "3.479e-16",
+   "h2_rel": "8.752e-16",
+   "absb_rel": "1.055e-15",
+   "reg_rel": "1.150e-15",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "446d1": {
+   "s_abs": "3.289e-16",
+   "h1_rel": "9.981e-16",
+   "h2_rel": "6.693e-16",
+   "absb_rel": "9.331e-16",
+   "reg_rel": "5.036e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "563a1": {
+   "s_abs": "3.119e-16",
+   "h1_rel": "2.392e-15",
+   "h2_rel": "3.088e-15",
+   "absb_rel": "6.998e-16",
+   "reg_rel": "2.081e-15",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "571b1": {
+   "s_abs": "8.564e-17",
+   "h1_rel": "1.023e-15",
+   "h2_rel": "2.242e-16",
+   "absb_rel": "2.101e-17",
+   "reg_rel": "3.851e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "643a1": {
+   "s_abs": "4.250e-16",
+   "h1_rel": "1.599e-15",
+   "h2_rel": "2.702e-16",
+   "absb_rel": "8.197e-16",
+   "reg_rel": "3.444e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "655a1": {
+   "s_abs": "2.386e-16",
+   "h1_rel": "1.459e-15",
+   "h2_rel": "5.292e-17",
+   "absb_rel": "2.872e-15",
+   "reg_rel": "3.987e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "664a1": {
+   "s_abs": "7.530e-17",
+   "h1_rel": "5.794e-17",
+   "h2_rel": "4.050e-16",
+   "absb_rel": "4.378e-16",
+   "reg_rel": "5.439e-17",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "681c1": {
+   "s_abs": "2.389e-16",
+   "h1_rel": "1.903e-15",
+   "h2_rel": "3.961e-17",
+   "absb_rel": "3.259e-16",
+   "reg_rel": "1.973e-15",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "707a1": {
+   "s_abs": "1.964e-16",
+   "h1_rel": "2.417e-15",
+   "h2_rel": "8.074e-17",
+   "absb_rel": "1.242e-17",
+   "reg_rel": "4.236e-15",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "709a1": {
+   "s_abs": "4.779e-16",
+   "h1_rel": "1.692e-16",
+   "h2_rel": "1.740e-16",
+   "absb_rel": "1.988e-16",
+   "reg_rel": "1.276e-15",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "718b1": {
+   "s_abs": "2.118e-16",
+   "h1_rel": "6.176e-16",
+   "h2_rel": "6.811e-16",
+   "absb_rel": "4.741e-16",
+   "reg_rel": "4.065e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "794a1": {
+   "s_abs": "3.484e-16",
+   "h1_rel": "8.526e-16",
+   "h2_rel": "3.931e-16",
+   "absb_rel": "1.457e-16",
+   "reg_rel": "1.753e-15",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "817a1": {
+   "s_abs": "4.188e-17",
+   "h1_rel": "7.005e-16",
+   "h2_rel": "7.875e-17",
+   "absb_rel": "7.201e-16",
+   "reg_rel": "8.142e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "916c1": {
+   "s_abs": "2.608e-16",
+   "h1_rel": "8.224e-16",
+   "h2_rel": "8.689e-16",
+   "absb_rel": "5.370e-16",
+   "reg_rel": "1.303e-15",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "944e1": {
+   "s_abs": "4.221e-16",
+   "h1_rel": "1.077e-15",
+   "h2_rel": "5.073e-16",
+   "absb_rel": "3.511e-16",
+   "reg_rel": "1.084e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "997b1": {
+   "s_abs": "1.956e-17",
+   "h1_rel": "3.989e-16",
+   "h2_rel": "2.534e-15",
+   "absb_rel": "3.722e-15",
+   "reg_rel": "2.042e-17",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  "997c1": {
+   "s_abs": "9.095e-17",
+   "h1_rel": "9.814e-16",
+   "h2_rel": "2.693e-15",
+   "absb_rel": "5.607e-16",
+   "reg_rel": "1.473e-16",
+   "U": [
+    [
+     1,
+     0
+    ],
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ },
+ "failed": []
+}

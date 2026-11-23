@@ -1,0 +1,2 @@
+label,status,final_bits,retry_events,precision_failures,reason
+(none),all records RESOLVED at the first 192/256-bit pair; no retries; no failures,,,,

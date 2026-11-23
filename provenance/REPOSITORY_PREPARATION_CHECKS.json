@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "check": "Python source syntax",
+      "status": "PASS",
+      "files": 11
+    },
+    {
+      "check": "Copied files equal their supplied source bytes",
+      "status": "PASS",
+      "files": 37
+    },
+    {
+      "check": "Missing-input verification fails without writing",
+      "status": "PASS",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "",
+      "stderr": "FAIL: Missing pinned inputs: inputs/allgens/allgens.00000-09999, inputs/allgens/allgens.10000-19999, inputs/allgens/allgens.20000-29999, inputs/allgens/allgens.30000-39999, inputs/allgens/allgens.40000-49999\n"
+    },
+    {
+      "check": "Canonical ZIP supplies exactly five verified blocks",
+      "status": "PASS",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "INSTALLED inputs/allgens/allgens.00000-09999\nINSTALLED inputs/allgens/allgens.10000-19999\nINSTALLED inputs/allgens/allgens.20000-29999\nINSTALLED inputs/allgens/allgens.30000-39999\nINSTALLED inputs/allgens/allgens.40000-49999\nPASS: 5/5 input blocks verified at commit 25cec5ecfec8b9f016eb1631ac633194c2bed39f\n",
+      "stderr": ""
+    },
+    {
+      "check": "Installed input verification",
+      "status": "PASS",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "stdout": "VERIFIED inputs/allgens/allgens.00000-09999\nVERIFIED inputs/allgens/allgens.10000-19999\nVERIFIED inputs/allgens/allgens.20000-29999\nVERIFIED inputs/allgens/allgens.30000-39999\nVERIFIED inputs/allgens/allgens.40000-49999\nPASS: 5/5 input blocks verified at commit 25cec5ecfec8b9f016eb1631ac633194c2bed39f\n",
+      "stderr": ""
+    },
+    {
+      "check": "Corrupt existing input is rejected",
+      "status": "PASS",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "",
+      "stderr": "FAIL: Existing input is mismatched; left untouched: <temporary test tree>/inputs/allgens/allgens.00000-09999\n"
+    },
+    {
+      "check": "Archive mode refuses to overwrite corrupt existing input",
+      "status": "PASS",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "",
+      "stderr": "FAIL: Existing input is mismatched; left untouched: <temporary test tree>/inputs/allgens/allgens.00000-09999\n"
+    },
+    {
+      "check": "Corrupt input remains untouched",
+      "status": "PASS"
+    },
+    {
+      "check": "Wrong outer archive digest rejected",
+      "status": "PASS",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "stdout": "VERIFIED inputs/allgens/allgens.10000-19999\nVERIFIED inputs/allgens/allgens.20000-29999\nVERIFIED inputs/allgens/allgens.30000-39999\nVERIFIED inputs/allgens/allgens.40000-49999\n",
+      "stderr": "FAIL: Archive SHA-256 does not match the canonical V0.2 ZIP\n"
+    },
+    {
+      "check": "Bad archive installs no replacement",
+      "status": "PASS"
+    },
+    {
+      "check": "Network download branch",
+      "status": "NOT EXECUTED",
+      "reason": "Archive route exercised; source URLs and pins are identical to the recorded source manifest."
+    },
+    {
+      "check": "Fresh PARI study execution during repository preparation",
+      "status": "NOT EXECUTED",
+      "reason": "This step preserves the scientific code and output bytes; prior execution evidence is labeled separately."
+    },
+    {
+      "check": "Local Markdown links resolve",
+      "status": "PASS"
+    },
+    {
+      "check": "CITATION.cff YAML parse and author/version/DOI checks",
+      "status": "PASS",
+      "note": "No external CFF schema validator was run."
+    }
+  ]
+}

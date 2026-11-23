@@ -1,0 +1,11 @@
+source_version,source_url,source_sha256,section,threshold_y,reported_percent
+arXiv math/0608766v2 (2006-08-30),https://arxiv.org/pdf/math/0608766v2,321b176a9074c3981de68533c86bdf870595c2b4058d4d1c4bd1ea1388ca8c9a,6.4,1,93.5
+arXiv math/0608766v2 (2006-08-30),https://arxiv.org/pdf/math/0608766v2,321b176a9074c3981de68533c86bdf870595c2b4058d4d1c4bd1ea1388ca8c9a,6.4,2,35.4
+arXiv math/0608766v2 (2006-08-30),https://arxiv.org/pdf/math/0608766v2,321b176a9074c3981de68533c86bdf870595c2b4058d4d1c4bd1ea1388ca8c9a,6.4,4,9.4
+arXiv math/0608766v2 (2006-08-30),https://arxiv.org/pdf/math/0608766v2,321b176a9074c3981de68533c86bdf870595c2b4058d4d1c4bd1ea1388ca8c9a,6.4,8,1.7
+arXiv math/0608766v2 (2006-08-30),https://arxiv.org/pdf/math/0608766v2,321b176a9074c3981de68533c86bdf870595c2b4058d4d1c4bd1ea1388ca8c9a,6.4,16,0.2
+author-hosted heur.pdf (retrieved 2026-11-23),https://magma.maths.usyd.edu.au/~watkins/papers/heur.pdf,0b7e6850026b51c160c38932c9731e4caaab795847429aff17c07efcde11709e,6.4,1,93.5
+author-hosted heur.pdf (retrieved 2026-11-23),https://magma.maths.usyd.edu.au/~watkins/papers/heur.pdf,0b7e6850026b51c160c38932c9731e4caaab795847429aff17c07efcde11709e,6.4,2,35.6
+author-hosted heur.pdf (retrieved 2026-11-23),https://magma.maths.usyd.edu.au/~watkins/papers/heur.pdf,0b7e6850026b51c160c38932c9731e4caaab795847429aff17c07efcde11709e,6.4,4,9.7
+author-hosted heur.pdf (retrieved 2026-11-23),https://magma.maths.usyd.edu.au/~watkins/papers/heur.pdf,0b7e6850026b51c160c38932c9731e4caaab795847429aff17c07efcde11709e,6.4,8,1.97
+author-hosted heur.pdf (retrieved 2026-11-23),https://magma.maths.usyd.edu.au/~watkins/papers/heur.pdf,0b7e6850026b51c160c38932c9731e4caaab795847429aff17c07efcde11709e,6.4,16,0.35

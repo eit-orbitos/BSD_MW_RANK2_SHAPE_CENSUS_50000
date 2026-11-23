@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite study V0.2 and the manuscript separately as described in CITATION.md. Dataset and preprint DOIs have not yet been assigned."
+type: dataset
+title: "Rank-Two Mordell–Weil Lattice Shape Census for Elliptic Curves of Conductor Below 50,000 (Study V0.2)"
+version: "0.2"
+authors:
+  - family-names: Mladenovski
+    given-names: Toni
+    affiliation: Independent researcher
+    orcid: "https://orcid.org/0009-0009-8343-662X"
+abstract: >-
+  A reproducible finite census of 23,612 rank-two elliptic-curve records and
+  18,886 predetermined isogeny-class representatives from a pinned version of
+  J. E. Cremona's ecdata for conductors below 50,000. The associated manuscript
+  candidate is version 0.3.3. Numerical heights use PARI/GP; rank and full-basis
+  assumptions are inherited from the database. The repository contains exact
+  V0.2 source files and selected stored summaries, with pinned input retrieval.
+  Component-specific licensing is described in licenses/LICENSE_SCOPE.md.
+keywords:
+  - elliptic curves
+  - Mordell-Weil lattices
+  - canonical heights
+  - lattice reduction
+  - reproducibility
+repository-code: "https://github.com/eit-orbitos/BSD_MW_RANK2_SHAPE_CENSUS_50000"

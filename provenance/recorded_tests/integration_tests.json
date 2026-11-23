@@ -1,0 +1,193 @@
+{
+ "tests": [
+  {
+   "name": "square Gram (b = 0 exactly): scaled shape error defined and < 1e-25",
+   "pass": true,
+   "injected_control": false,
+   "detail": {
+    "new_scaled_error": "0.E-57",
+    "old_V0.1_inv_rel_max": "V0.1 definition fails: PariError"
+   }
+  },
+  {
+   "name": "rectangular Gram (b = 0 exactly): scaled shape error defined and < 1e-25",
+   "pass": true,
+   "injected_control": false,
+   "detail": {
+    "new_scaled_error": "0.E-57",
+    "old_V0.1_inv_rel_max": "V0.1 definition fails: PariError"
+   }
+  },
+  {
+   "name": "rectangular via pipeline: b set to exact 0 at 192 and 256 bits -> RESOLVED, x = 0, no division error",
+   "pass": true,
+   "injected_control": true,
+   "detail": {
+    "status": "RESOLVED",
+    "x": "0",
+    "inv_scaled_max": "7.30330e-67"
+   }
+  },
+  {
+   "name": "near-zero pairing: V0.1 relative error would be 0.5 (spurious instability); V0.2 scaled error ~1e-50 -> RESOLVED",
+   "pass": true,
+   "injected_control": true,
+   "detail": {
+    "status": "RESOLVED",
+    "old_V0.1_inv_rel_max": "5.000e-1",
+    "new_inv_scaled_max": "8.28222e-51"
+   }
+  },
+  {
+   "name": "effective-precision guard: 256-bit injected constant at 384/512 bits -> runs rejected, record UNRESOLVED",
+   "pass": true,
+   "injected_control": true,
+   "detail": {
+    "status": "UNRESOLVED",
+    "precision_failures": {
+     "384": [
+      "effective precision 256 < requested 384"
+     ],
+     "512": [
+      "effective precision 256 < requested 512"
+     ]
+    }
+   }
+  },
+  {
+   "name": "valid boundary change of U: retried to 512 bits, U differs between rungs, accepted as RESOLVED_BOUNDARY_FLAGGED",
+   "pass": true,
+   "injected_control": true,
+   "detail": {
+    "status": "RESOLVED_BOUNDARY_FLAGGED",
+    "final_bits": 512,
+    "U_by_bits": {
+     "192": [
+      [
+       1,
+       -1
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "256": [
+      [
+       1,
+       0
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "384": [
+      [
+       1,
+       -1
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "512": [
+      [
+       1,
+       0
+      ],
+      [
+       0,
+       1
+      ]
+     ]
+    },
+    "retry_events": [
+     "retry at 384 bits: boundary-sensitive, U differs (both valid) (pair 192/256)",
+     "retry at 512 bits: boundary-sensitive, U differs (both valid) (pair 256/384)"
+    ],
+    "flag_reason": "boundary-sensitive, U differs (both valid)",
+    "final_pair_inv_scaled_max": "1.37190e-43"
+   }
+  },
+  {
+   "name": "retry path: unstable 192/256 pair -> retry at 384 -> consecutive stable pair 256/384 -> RESOLVED at 384",
+   "pass": true,
+   "injected_control": true,
+   "detail": {
+    "status": "RESOLVED",
+    "final_bits": 384,
+    "retry_events": [
+     "retry at 384 bits: unstable (pair 192/256)"
+    ]
+   }
+  },
+  {
+   "name": "numerical failure retained: exception at 192 bits recorded, ladder continues, RESOLVED from pair 256/384",
+   "pass": true,
+   "injected_control": true,
+   "detail": {
+    "status": "RESOLVED",
+    "final_bits": 384,
+    "precision_failures": {
+     "192": [
+      "exception: INJECTED exception at 192 bits"
+     ]
+    },
+    "retry_events": [
+     "retry at 384 bits: unusable run at 192 bits (pair 192/256)"
+    ]
+   }
+  },
+  {
+   "name": "exception at all precisions -> UNRESOLVED, all four failures retained",
+   "pass": true,
+   "injected_control": true,
+   "detail": {
+    "status": "UNRESOLVED",
+    "reason": "no consecutive usable stable pair up to 512 bits",
+    "failed_bits": [
+     "192",
+     "256",
+     "384",
+     "512"
+    ]
+   }
+  },
+  {
+   "name": "unresolved export: run_study exits 1, analyze exits 1 with INCOMPLETE, ledger lists UNRESOLVED and MISSING, resolved-only summaries still written",
+   "pass": true,
+   "injected_control": true,
+   "detail": {
+    "run_study_exit": 1,
+    "analyze_exit": 1,
+    "status": "INCOMPLETE",
+    "A_expected_completed_unresolved": [
+     12,
+     10,
+     2
+    ],
+    "unresolved_label_injected": "389a1",
+    "removed_record_label": "433a1",
+    "ledger": [
+     "label,status,final_bits,retry_events,precision_failures,reason",
+     "389a1,UNRESOLVED,,\"retry at 384 bits: unusable run at 192,256 bits (pair 192/256) | retry at 512 bits: unusable run at 256,384 bits (pair 256/384)\",\"{\"\"192\"\": [\"\"exception: INJECTED exception at 192 bits\"\"], \"\"256\"\": [\"\"exception: INJECTED exception at 256 bits\"\"], \"\"384\"\": [\"\"exception: INJECTED exception at 384 bits\"\"], \"\"512\"\": [\"\"exception: INJECTED exception at 512 bits\"\"]}\",no consecutive usable stable pair up to 512 bits",
+     "433a1,MISSING,,,,record absent from per_curve_results.jsonl"
+    ]
+   }
+  },
+  {
+   "name": "positive control: same 12-record block without injection -> run_study exit 0, analyze exit 0, COMPLETE",
+   "pass": true,
+   "injected_control": false,
+   "detail": {
+    "run_study_exit": 0,
+    "analyze_exit": 0,
+    "status": "COMPLETE"
+   }
+  }
+ ],
+ "failed": [],
+ "status": "PASS"
+}

@@ -1,0 +1,227 @@
+{
+  "note": "Preparation provenance; files listed are copied without changing their bytes. No new PARI execution is claimed by this file.",
+  "files": [
+    {
+      "path": "code/analyze.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/analyze.py",
+      "sha256": "ee1755cf1c6a0cea48c8ffb23acca4bb837def987f3cebe631a0f643c77a08e3",
+      "bytes": 11695
+    },
+    {
+      "path": "code/compare_with_v01.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/compare_with_v01.py",
+      "sha256": "cd0908c04e7aae359d46e2b475a1eee3190bb3ed1593261026561a22df6bd825",
+      "bytes": 5331
+    },
+    {
+      "path": "code/integration_tests.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/integration_tests.py",
+      "sha256": "08a123dd6d0494cf019c25de0b0029f04c7c4b3a7e7c640d913674dfa2594074",
+      "bytes": 10477
+    },
+    {
+      "path": "code/mwshape.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/mwshape.py",
+      "sha256": "d56b27effcb235cb52d37e7d32f3fe2e63f429eb0d360230303b06d9e0f9b127",
+      "bytes": 12710
+    },
+    {
+      "path": "code/negative_controls.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/negative_controls.py",
+      "sha256": "2e593400d33a8654c2aca3a9531ec3f853a69df8f4088ec302cc0f08df5c2b4c",
+      "bytes": 1734
+    },
+    {
+      "path": "code/plots.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/plots.py",
+      "sha256": "92250457c4c266f7b5941f4a177cd14d37adfe06d71ea0db3dc62009cab1ff4d",
+      "bytes": 7238
+    },
+    {
+      "path": "code/retry_path_exercise.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/retry_path_exercise.py",
+      "sha256": "33c2945876d2b61c0053cd7e260beae0ef147bfd2c84c90e7db17e0b0f744e96",
+      "bytes": 2592
+    },
+    {
+      "path": "code/run_all.sh",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/run_all.sh",
+      "sha256": "87001889f80cf64ee416ece682a4dd565cbf3f5f8e786a3e74e9258f4bb48d71",
+      "bytes": 1443
+    },
+    {
+      "path": "code/run_study.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/run_study.py",
+      "sha256": "76d8eaad15df2f144f1140c36280099fcfbd3a81d7bec0d0425d942dd4cba623",
+      "bytes": 11830
+    },
+    {
+      "path": "code/selftests.py",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/code/selftests.py",
+      "sha256": "36548654622604646747117cd37ff592ebc70446d6bddec9d6110282814035c7",
+      "bytes": 6420
+    },
+    {
+      "path": "inputs/handoff_reference/source_counts.json",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/inputs/handoff_reference/source_counts.json",
+      "sha256": "843c4468bb36469533bc5c2e6c406b68908bc303b938543b60018d538da51184",
+      "bytes": 3016
+    },
+    {
+      "path": "inputs/handoff_reference/reduced_basis_shape_extract.csv",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/inputs/handoff_reference/reduced_basis_shape_extract.csv",
+      "sha256": "77911831655fd41d1f614f46c71cebb19a194623ff7b0698b927eb8eef345422",
+      "bytes": 2232
+    },
+    {
+      "path": "recorded_results/frozen_populations.json",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/results/frozen_populations.json",
+      "sha256": "cdffa51a85ddd7c7f28265eed2ab9dfeca93243aa2d23c3468213d633954316e",
+      "bytes": 1808
+    },
+    {
+      "path": "recorded_results/population_B_selection.csv",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/results/population_B_selection.csv",
+      "sha256": "e4fe212c3e7b3b5e8bf3d01af0b7ce7cc366a4a9382b65116e06c1237c7db24b",
+      "bytes": 338099
+    },
+    {
+      "path": "recorded_results/summary.json",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/results/summary.json",
+      "sha256": "11956b62470f58341e5e874156e56ef5a9b6e9da9e9e23fbf70607733c247da0",
+      "bytes": 18679
+    },
+    {
+      "path": "recorded_results/summary_table.csv",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/results/summary_table.csv",
+      "sha256": "6e8d67c8cb1a5287c8f8f60332c77a664d083aea94f5c37f881d0688b2e70427",
+      "bytes": 5392
+    },
+    {
+      "path": "recorded_results/retry_failure_ledger.csv",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/results/retry_failure_ledger.csv",
+      "sha256": "1018c602785f2844309c10afa79fc9226238558dcd958eb218db3ef5faa2f3e5",
+      "bytes": 152
+    },
+    {
+      "path": "provenance/recorded_tests/selftests.json",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/tests/selftests.json",
+      "sha256": "fb1da94372ceb269bed776b65a064a2e2b844b89d153b8d023a9f7c3b0fcf0d9",
+      "bytes": 18256
+    },
+    {
+      "path": "provenance/recorded_tests/negative_controls.json",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/tests/negative_controls.json",
+      "sha256": "e217d7a224f10da3223be737197b511584d9053d62d1e8851e6f38ab0062d62c",
+      "bytes": 1800
+    },
+    {
+      "path": "provenance/recorded_tests/integration_tests.json",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/tests/integration_tests.json",
+      "sha256": "0a0bbe27f30d44c1df2c37202c4936467edb4b9fd131e349eaf9fca5a2b9ce5d",
+      "bytes": 4966
+    },
+    {
+      "path": "provenance/recorded_tests/retry_path_exercise.json",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/tests/retry_path_exercise.json",
+      "sha256": "227040362f016caa0fb8198c5c9202878937d347a7cb6710ab13208561ed4cc0",
+      "bytes": 19547
+    },
+    {
+      "path": "provenance/RECORDED_ENVIRONMENT_V0_2.json",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/logs/environment.json",
+      "sha256": "2495a2fa23ae98541482f772d056c205191a9e46711decca03a404a80ca05331",
+      "bytes": 2197
+    },
+    {
+      "path": "provenance/RECORDED_EXIT_CODES_V0_2.txt",
+      "origin": "BSD_MW_SHAPE_STUDY_V0_2.zip!BSD_MW_SHAPE_STUDY_V0_2/logs/exit_codes.txt",
+      "sha256": "0dd57ee394084cfc64716dc88842d7cb9ac6b98d80cbb7c2b38f75b997e9ea61",
+      "bytes": 149
+    },
+    {
+      "path": "code/render_publication_figures.py",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/code/render_publication_figures.py",
+      "sha256": "916f5b2186c1c7a60fee393ec4cf3af9222f3f730dc7c814ecf8855bc151651b",
+      "bytes": 6051
+    },
+    {
+      "path": "manuscript/MW_Rank2_Census_v0_3_3_PUBLICATION_CANDIDATE.pdf",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/manuscript/MW_Rank2_Census_v0_3_3_PUBLICATION_CANDIDATE.pdf",
+      "sha256": "07baf81013bd4c7239bf078c3d81267023e55e3f33e6591261840e6b769fd635",
+      "bytes": 759686
+    },
+    {
+      "path": "manuscript/MW_Rank2_Census_v0_3_3_PUBLICATION_CANDIDATE.tex",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/manuscript/MW_Rank2_Census_v0_3_3_PUBLICATION_CANDIDATE.tex",
+      "sha256": "bf770f03f36ffc1fea80c4b133cce09dc9f2c3e4d6fc1479a32380215d35ab78",
+      "bytes": 25826
+    },
+    {
+      "path": "figures/fig1_ecdf_s_vs_reference.pdf",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/figures/fig1_ecdf_s_vs_reference.pdf",
+      "sha256": "89eff2c193b5f9d2585961d54c235a659d6b16fab3656f4f1c58e78dff2a8cd6",
+      "bytes": 61516
+    },
+    {
+      "path": "figures/fig2_y_tail.pdf",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/figures/fig2_y_tail.pdf",
+      "sha256": "b7c9ac26da196f057a1d0fabf69dbf7e79ac91cb7fcb8072be3670cdcf77b6ae",
+      "bytes": 52460
+    },
+    {
+      "path": "figures/fig3_fundamental_domain.pdf",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/figures/fig3_fundamental_domain.pdf",
+      "sha256": "bc223d7f74c8982235f1872ed4899c6d74d535e454ad31b7df9f2290b8fe8916",
+      "bytes": 268853
+    },
+    {
+      "path": "licenses/PolyForm-Noncommercial-1.0.0.txt",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/licenses/PolyForm-Noncommercial-1.0.0.txt",
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8",
+      "bytes": 4563
+    },
+    {
+      "path": "licenses/CC-BY-NC-4.0.txt",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/licenses/CC-BY-NC-4.0.txt",
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0",
+      "bytes": 19347
+    },
+    {
+      "path": "third_party/ecdata/LICENSE",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/third_party/ecdata/LICENSE",
+      "sha256": "e7000d1562eb8d32209576028f36bf5caed23f01e9a99fa318063cc4684afc01",
+      "bytes": 9447
+    },
+    {
+      "path": "third_party/ecdata/README.upstream.md",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/third_party/ecdata/README.upstream.md",
+      "sha256": "619466f9a1542c3bfeaa68b592feb903edd205c652cac59d7f21d70444203bb5",
+      "bytes": 775
+    },
+    {
+      "path": "third_party/ecdata/SOURCE_FILES_SHA256.json",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/third_party/ecdata/SOURCE_FILES_SHA256.json",
+      "sha256": "1c547b96ef080d56893ce3589a2ef61876838954d326e210887178b37818e0a3",
+      "bytes": 1033
+    },
+    {
+      "path": "CITATION.md",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/CITATION.md",
+      "sha256": "cb2d40d39c929e98f15ba8561f0c8c2515f39c24d1d839bc65a541d5da507ed0",
+      "bytes": 1729
+    },
+    {
+      "path": "CITATION.bib",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/CITATION.bib",
+      "sha256": "8bcb3eb3ebbf0d864b12ff49a333f174661115edc77cd382ed54dc2843ed2165",
+      "bytes": 310
+    },
+    {
+      "path": "provenance/WATKINS_VERSIONED_TAILS.csv",
+      "origin": "MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip!MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE/provenance/WATKINS_VERSIONED_TAILS.csv",
+      "sha256": "378daa197c7a15bd1213a8bc59ac7dfac19c1eeff2f1be6eddcde64378731658",
+      "bytes": 1716
+    }
+  ]
+}

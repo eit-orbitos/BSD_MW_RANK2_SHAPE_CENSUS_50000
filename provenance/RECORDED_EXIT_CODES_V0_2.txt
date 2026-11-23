@@ -1,0 +1,8 @@
+selftests exit=0
+negative_controls exit=0
+integration_tests exit=0
+run_study exit=0
+retry_exercise exit=0
+analyze exit=0
+plots exit=0
+run_all exit=0

@@ -1,0 +1,20 @@
+This repository contains materials with distinct component licenses.
+
+Original scientific and support software identified in
+licenses/SOFTWARE_SCOPE_SHA256.json is licensed under PolyForm Noncommercial
+License 1.0.0. The official text is in
+licenses/PolyForm-Noncommercial-1.0.0.txt.
+
+Required Notice: Copyright 2026 Toni Mladenovski. Rank-Two Mordell-Weil Lattice
+Shape Census for Elliptic Curves of Conductor Below 50,000.
+ORCID https://orcid.org/0009-0009-8343-662X.
+
+Except for separately identified third-party material, the original manuscript,
+figures and documentation, and any author-held licensable rights in the original
+result compilation, are licensed under CC BY-NC 4.0. The official text is in
+licenses/CC-BY-NC-4.0.txt.
+
+Upstream ecdata retains Artistic License 2.0. Dependencies and other third-party
+material retain their own licenses. These component licenses are not alternative
+licenses for the same material. See licenses/LICENSE_SCOPE.md for the exact
+scope and exclusions.

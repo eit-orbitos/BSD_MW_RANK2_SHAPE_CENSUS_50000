@@ -1,0 +1,61 @@
+{
+ "cases": [
+  {
+   "case": "positive control 389a1 (unmodified)",
+   "line": "389 a 1 [0,1,1,-2,0] 2 [] [0:0:1] [1:0:1]",
+   "expected": "RESOLVED",
+   "got": "RESOLVED",
+   "reason": null,
+   "pass": true
+  },
+  {
+   "case": "off-curve generator (y+1)",
+   "line": "389 a 1 [0,1,1,-2,0] 2 [] [0:1:1] [1:0:1]",
+   "expected": "UNRESOLVED",
+   "got": "UNRESOLVED",
+   "reason": "exact point-membership failure",
+   "pass": true
+  },
+  {
+   "case": "dependent generators (P, 2P)",
+   "line": "389 a 1 [0,1,1,-2,0] 2 [] [0:0:1] [3:5:1]",
+   "expected": "UNRESOLVED",
+   "got": "UNRESOLVED",
+   "reason": "no consecutive usable stable pair up to 512 bits",
+   "pass": true
+  },
+  {
+   "case": "repeated generator (P, P)",
+   "line": "389 a 1 [0,1,1,-2,0] 2 [] [0:0:1] [0:0:1]",
+   "expected": "UNRESOLVED",
+   "got": "UNRESOLVED",
+   "reason": "no consecutive usable stable pair up to 512 bits",
+   "pass": true
+  },
+  {
+   "case": "torsion point given as free generator (1088j1: (3,0) has order 2)",
+   "line": "1088 j 1 [0,1,0,-25,39] 2 [] [1:4:1] [3:0:1]",
+   "expected": "UNRESOLVED",
+   "got": "UNRESOLVED",
+   "reason": "no consecutive usable stable pair up to 512 bits",
+   "pass": true
+  },
+  {
+   "case": "torsion structure parsed as point (missing torsion generator)",
+   "line": "1088 j 1 [0,1,0,-25,39] 2 [2] [1:4:1] [5:8:1]",
+   "expected": "UNRESOLVED",
+   "got": "UNRESOLVED",
+   "reason": "parse error: point count 2 != rank 2 + torsion gens 1",
+   "pass": true
+  },
+  {
+   "case": "wrong projective convention (817a1: intended point (-3/32,15/512) = ordinary triple [-48:15:512])",
+   "line": "817 a 1 [0,1,1,1,6] 2 [] [4:9:1] [-48:15:512]",
+   "expected": "UNRESOLVED",
+   "got": "UNRESOLVED",
+   "reason": "exact point-membership failure",
+   "pass": true
+  }
+ ],
+ "status": "PASS"
+}

@@ -1,0 +1,20 @@
+# Downloaded inputs and regenerated outputs; retained in the canonical dataset.
+/inputs/allgens/
+/results/
+/tests/
+/logs/
+/audit_output/
+/figure_output/
+__pycache__/
+*.py[cod]
+.venv/
+# Local TeX build products (the canonical PDF is included intentionally).
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Large canonical archives belong in the dataset deposit, not Git history.
+/BSD_MW_SHAPE_STUDY_V0_2.zip
+/MW_CENSUS_V0_3_3_PUBLICATION_CANDIDATE.zip

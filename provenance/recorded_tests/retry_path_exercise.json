@@ -1,0 +1,765 @@
+{
+ "note": "artificial threshold 1e-2 to force retries; not study results. Comparison with the study is of 45-digit serialized values only.",
+ "cases": [
+  {
+   "label": "15378f1",
+   "margins_256": [
+    "4.33900565487e-1",
+    "3.34373081287e-6"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "9.55855e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "5.49260e-75"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "0.E-115"
+    }
+   ],
+   "serialized45_s_original_256": "9.19883125451244398974609845762656410969780056e-1",
+   "serialized45_s_rerun_final": "9.19883125451244398974609845762656410969780056e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "35400i1",
+   "margins_256": [
+    "3.21250528442e-5",
+    "6.18407769701e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "1.59309e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "8.63617e-78"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "7.61383e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.04608071661969701267552946813743263649774499e-1",
+   "serialized45_s_rerun_final": "9.04608071661969701267552946813743263649774499e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "22832a1",
+   "margins_256": [
+    "5.82083406074e-1",
+    "6.24796455334e-5"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "3.18618e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "1.72723e-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.56339158214738077147419495873203561712849040e-1",
+   "serialized45_s_rerun_final": "9.56339158214738077147419495873203561712849040e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "32200o1",
+   "margins_256": [
+    "1.11650787313e-4",
+    "3.41764303880e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "3.18618e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "3.45447e-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "8.35477820185590414404048958784408329046663255e-1",
+   "serialized45_s_rerun_final": "8.35477820185590414404048958784408329046663255e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "29249c1",
+   "margins_256": [
+    "1.29305722807e-4",
+    "8.05874593036e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "3.18618e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "0.E-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "5.07588e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.51481198210598037363284700641755774865274431e-1",
+   "serialized45_s_rerun_final": "9.51481198210598037363284700641755774865274431e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "46761f1",
+   "margins_256": [
+    "1.52794860750e-4",
+    "2.18262854221e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "3.18618e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "1.72723e-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "8.04625431701699791929758801325245165045228676e-1",
+   "serialized45_s_rerun_final": "8.04625431701699791929758801325245165045228676e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "46860d1",
+   "margins_256": [
+    "1.64297743973e-4",
+    "2.30108989339e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "0.E-57"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "8.63617e-78"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "8.07590487817360336053504309919589139345259661e-1",
+   "serialized45_s_rerun_final": "8.07590487817360336053504309919589139345259661e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "39350h1",
+   "margins_256": [
+    "1.64668805907e-4",
+    "6.34151234338e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "3.18618e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "0.E-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "0.E-115"
+    }
+   ],
+   "serialized45_s_original_256": "9.08567928044088390512738249683113821765554429e-1",
+   "serialized45_s_rerun_final": "9.08567928044088390512738249683113821765554429e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "45081b1",
+   "margins_256": [
+    "1.93653866733e-4",
+    "6.27827640258e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "4.77928e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "1.72723e-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.06992942883533723103996369894013348607943662e-1",
+   "serialized45_s_rerun_final": "9.06992942883533723103996369894013348607943662e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "39024e1",
+   "margins_256": [
+    "1.94426384671e-4",
+    "3.76626061253e-2"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "4.77928e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "0.E-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "5.07588e-116"
+    }
+   ],
+   "serialized45_s_original_256": "7.59509194327009027838202270573885757954378067e-1",
+   "serialized45_s_rerun_final": "7.59509194327009027838202270573885757954378067e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "43817a1",
+   "margins_256": [
+    "2.09280546074e-4",
+    "1.49816444590e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "0.E-57"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "8.63617e-78"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "5.07588e-116"
+    }
+   ],
+   "serialized45_s_original_256": "7.87543065277791727442191199592733280486173641e-1",
+   "serialized45_s_rerun_final": "7.87543065277791727442191199592733280486173641e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "34109a1",
+   "margins_256": [
+    "6.40968674658e-1",
+    "2.11990244495e-4"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "1.59309e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "8.63617e-78"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.67780958426526411834983082227975583655555144e-1",
+   "serialized45_s_rerun_final": "9.67780958426526411834983082227975583655555144e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "41322h1",
+   "margins_256": [
+    "2.18062422135e-4",
+    "4.83450803443e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "0.E-57"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "8.63617e-78"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "5.07588e-116"
+    }
+   ],
+   "serialized45_s_original_256": "8.70919014704642511141443436165080502000059950e-1",
+   "serialized45_s_rerun_final": "8.70919014704642511141443436165080502000059950e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "32328e1",
+   "margins_256": [
+    "2.19190752872e-4",
+    "2.05531333605e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "3.18618e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "0.E-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "8.01469893951296594977417111568694846131897923e-1",
+   "serialized45_s_rerun_final": "8.01469893951296594977417111568694846131897923e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "37152f1",
+   "margins_256": [
+    "2.24107146622e-4",
+    "3.84796487479e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "1.59309e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "3.45447e-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "5.07588e-116"
+    }
+   ],
+   "serialized45_s_original_256": "8.46268049897128951989025660695131279471926003e-1",
+   "serialized45_s_rerun_final": "8.46268049897128951989025660695131279471926003e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "43890s2",
+   "margins_256": [
+    "8.97692432822e-1",
+    "2.38349542974e-4"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "3.18618e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "8.63617e-78"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.97383914116075074189696125773504176371910867e-1",
+   "serialized45_s_rerun_final": "9.97383914116075074189696125773504176371910867e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "43890s3",
+   "margins_256": [
+    "8.97692432822e-1",
+    "2.38349542974e-4"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "1.59309e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "1.72723e-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "2.53794e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.97383914116075074189696125773504176371910867e-1",
+   "serialized45_s_rerun_final": "9.97383914116075074189696125773504176371910867e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "43890s4",
+   "margins_256": [
+    "8.97692432822e-1",
+    "2.38349542974e-4"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "3.18618e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "8.63617e-78"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "5.07588e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.97383914116075074189696125773504176371910867e-1",
+   "serialized45_s_rerun_final": "9.97383914116075074189696125773504176371910867e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "46550j1",
+   "margins_256": [
+    "7.92376400623e-1",
+    "3.85712213665e-4"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "9.55855e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "0.E-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "5.07588e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.89227267023457272778322501929616458091504313e-1",
+   "serialized45_s_rerun_final": "9.89227267023457272778322501929616458091504313e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  },
+  {
+   "label": "12351a1",
+   "margins_256": [
+    "3.88803306298e-4",
+    "6.31200466200e-1"
+   ],
+   "status_under_loose_threshold": "RESOLVED_BOUNDARY_FLAGGED",
+   "final_bits": 512,
+   "effective_bits_final": 512,
+   "retry_events": [
+    "retry at 384 bits: boundary-sensitive (pair 192/256)",
+    "retry at 512 bits: boundary-sensitive (pair 256/384)"
+   ],
+   "within_rerun_pairs_raw_inmemory": [
+    {
+     "low": 192,
+     "high": 256,
+     "same_U": true,
+     "s_abs": "6.37237e-58"
+    },
+    {
+     "low": 256,
+     "high": 384,
+     "same_U": true,
+     "s_abs": "1.72723e-77"
+    },
+    {
+     "low": 384,
+     "high": 512,
+     "same_U": true,
+     "s_abs": "5.07588e-116"
+    }
+   ],
+   "serialized45_s_original_256": "9.07871797851459019359050177327970924379230331e-1",
+   "serialized45_s_rerun_final": "9.07871797851459019359050177327970924379230331e-1",
+   "serialized45_strings_equal": true,
+   "abs_diff_of_parsed_serialized45_values": "0.E-77"
+  }
+ ]
+}

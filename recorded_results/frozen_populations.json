@@ -1,0 +1,52 @@
+{
+ "sources": [
+  {
+   "block": "00000-09999",
+   "path": "inputs/allgens/allgens.00000-09999",
+   "sha256": "d4200efe89ce8cb7874040711878fa11f04468e3181e9b8e43fd0f84ae0f1175",
+   "expected_sha256": "d4200efe89ce8cb7874040711878fa11f04468e3181e9b8e43fd0f84ae0f1175",
+   "match": true,
+   "rank2_records": 2388,
+   "expected_rank2_records": 2388
+  },
+  {
+   "block": "10000-19999",
+   "path": "inputs/allgens/allgens.10000-19999",
+   "sha256": "4fb94e594753a16f84f7383cb3073dedf92ac14e6d65512cd4acba4b8fafa699",
+   "expected_sha256": "4fb94e594753a16f84f7383cb3073dedf92ac14e6d65512cd4acba4b8fafa699",
+   "match": true,
+   "rank2_records": 4410,
+   "expected_rank2_records": 4410
+  },
+  {
+   "block": "20000-29999",
+   "path": "inputs/allgens/allgens.20000-29999",
+   "sha256": "925107385e14e0b425688fa864afa799c8b4dba195a622f2920b8cfeb2d64ca2",
+   "expected_sha256": "925107385e14e0b425688fa864afa799c8b4dba195a622f2920b8cfeb2d64ca2",
+   "match": true,
+   "rank2_records": 5212,
+   "expected_rank2_records": 5212
+  },
+  {
+   "block": "30000-39999",
+   "path": "inputs/allgens/allgens.30000-39999",
+   "sha256": "eef6d75665112a88244fb1ae7e06019f8e4a8e59bfa47db466aa9e12a9630ca0",
+   "expected_sha256": "eef6d75665112a88244fb1ae7e06019f8e4a8e59bfa47db466aa9e12a9630ca0",
+   "match": true,
+   "rank2_records": 5671,
+   "expected_rank2_records": 5671
+  },
+  {
+   "block": "40000-49999",
+   "path": "inputs/allgens/allgens.40000-49999",
+   "sha256": "3e85424d1d14f8de8f81f8e7ec632109dd34fd47c9192f433cbb426f4ffca1f1",
+   "expected_sha256": "3e85424d1d14f8de8f81f8e7ec632109dd34fd47c9192f433cbb426f4ffca1f1",
+   "match": true,
+   "rank2_records": 5931,
+   "expected_rank2_records": 5931
+  }
+ ],
+ "population_A_records": 23612,
+ "population_B_classes": 18886,
+ "commit": "25cec5ecfec8b9f016eb1631ac633194c2bed39f"
+}

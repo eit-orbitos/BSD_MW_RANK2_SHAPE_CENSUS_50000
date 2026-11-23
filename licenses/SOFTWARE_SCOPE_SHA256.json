@@ -1,0 +1,54 @@
+{
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "scope": "Author-held licensable rights only; dependencies and separately attributed third-party material excluded.",
+  "files": [
+    {
+      "path": "code/analyze.py",
+      "sha256": "ee1755cf1c6a0cea48c8ffb23acca4bb837def987f3cebe631a0f643c77a08e3"
+    },
+    {
+      "path": "code/compare_with_v01.py",
+      "sha256": "cd0908c04e7aae359d46e2b475a1eee3190bb3ed1593261026561a22df6bd825"
+    },
+    {
+      "path": "code/integration_tests.py",
+      "sha256": "08a123dd6d0494cf019c25de0b0029f04c7c4b3a7e7c640d913674dfa2594074"
+    },
+    {
+      "path": "code/mwshape.py",
+      "sha256": "d56b27effcb235cb52d37e7d32f3fe2e63f429eb0d360230303b06d9e0f9b127"
+    },
+    {
+      "path": "code/negative_controls.py",
+      "sha256": "2e593400d33a8654c2aca3a9531ec3f853a69df8f4088ec302cc0f08df5c2b4c"
+    },
+    {
+      "path": "code/plots.py",
+      "sha256": "92250457c4c266f7b5941f4a177cd14d37adfe06d71ea0db3dc62009cab1ff4d"
+    },
+    {
+      "path": "code/render_publication_figures.py",
+      "sha256": "916f5b2186c1c7a60fee393ec4cf3af9222f3f730dc7c814ecf8855bc151651b"
+    },
+    {
+      "path": "code/retry_path_exercise.py",
+      "sha256": "33c2945876d2b61c0053cd7e260beae0ef147bfd2c84c90e7db17e0b0f744e96"
+    },
+    {
+      "path": "code/run_all.sh",
+      "sha256": "87001889f80cf64ee416ece682a4dd565cbf3f5f8e786a3e74e9258f4bb48d71"
+    },
+    {
+      "path": "code/run_study.py",
+      "sha256": "76d8eaad15df2f144f1140c36280099fcfbd3a81d7bec0d0425d942dd4cba623"
+    },
+    {
+      "path": "code/selftests.py",
+      "sha256": "36548654622604646747117cd37ff592ebc70446d6bddec9d6110282814035c7"
+    },
+    {
+      "path": "scripts/fetch_inputs.py",
+      "sha256": "846e6466453e59ac4d42698fcb0646df840d01d0aa9acc83cedddc3c551d03eb"
+    }
+  ]
+}

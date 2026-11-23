@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "filename": "ecdata_README_pinned.md",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/README.md",
+      "bytes": 775,
+      "sha256": "619466f9a1542c3bfeaa68b592feb903edd205c652cac59d7f21d70444203bb5",
+      "role": "upstream attribution and licence declaration",
+      "retrieved_date": "2026-11-23",
+      "retrieved_via": "direct HTTP 200; independently inspected through web or GitHub connector"
+    },
+    {
+      "filename": "ecdata_LICENSE_pinned",
+      "url": "https://raw.githubusercontent.com/JohnCremona/ecdata/25cec5ecfec8b9f016eb1631ac633194c2bed39f/LICENSE",
+      "bytes": 9447,
+      "sha256": "e7000d1562eb8d32209576028f36bf5caed23f01e9a99fa318063cc4684afc01",
+      "role": "unmodified upstream licence text",
+      "retrieved_date": "2026-11-23",
+      "retrieved_via": "direct HTTP 200; independently inspected through web or GitHub connector"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source_commit": "25cec5ecfec8b9f016eb1631ac633194c2bed39f",
+  "study_zip_sha256": "1338bdf8ddb50de5d9278a14e207ee3c3f2c9ab211d929b3556d7adf92a0d4fc",
+  "files": [
+    {
+      "path": "inputs/allgens/allgens.00000-09999",
+      "bytes": 3137696,
+      "sha256": "d4200efe89ce8cb7874040711878fa11f04468e3181e9b8e43fd0f84ae0f1175"
+    },
+    {
+      "path": "inputs/allgens/allgens.10000-19999",
+      "bytes": 3564948,
+      "sha256": "4fb94e594753a16f84f7383cb3073dedf92ac14e6d65512cd4acba4b8fafa699"
+    },
+    {
+      "path": "inputs/allgens/allgens.20000-29999",
+      "bytes": 3571204,
+      "sha256": "925107385e14e0b425688fa864afa799c8b4dba195a622f2920b8cfeb2d64ca2"
+    },
+    {
+      "path": "inputs/allgens/allgens.30000-39999",
+      "bytes": 3611256,
+      "sha256": "eef6d75665112a88244fb1ae7e06019f8e4a8e59bfa47db466aa9e12a9630ca0"
+    },
+    {
+      "path": "inputs/allgens/allgens.40000-49999",
+      "bytes": 3625380,
+      "sha256": "3e85424d1d14f8de8f81f8e7ec632109dd34fd47c9192f433cbb426f4ffca1f1"
+    }
+  ]
+}
