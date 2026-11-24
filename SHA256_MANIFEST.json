@@ -36,8 +36,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5230,
-      "sha256": "cbf0022defe963515b2e54b82d82369ae3b788311aba9095bc2e3c5acd4a7bc4"
+      "bytes": 6065,
+      "sha256": "4300ac10a44cff4fc2dfa656db7d19b0e6290f4a45a14129838d1df72e2776a2"
     },
     {
       "path": "REPRODUCING.md",
@@ -46,8 +46,8 @@
     },
     {
       "path": "SHA256SUMS.txt",
-      "bytes": 6142,
-      "sha256": "7a858608bd274bb57a3192e357e1565623988f202c35c4d0afd9863b607e217d"
+      "bytes": 6243,
+      "sha256": "0a579acb406a75d3ef094250d97c9323c76fc1062282459d7a471fb4d20c4a45"
     },
     {
       "path": "code/analyze.py",
@@ -183,6 +183,11 @@
       "path": "provenance/ECDATA_LICENSE_PROVENANCE.json",
       "bytes": 967,
       "sha256": "9aab329f601ddd3f7d98f0bfa51e61c88b0dc48d8467b2e02bfcc5b9b46eb9e5"
+    },
+    {
+      "path": "provenance/JOURNAL_SUBMISSION.json",
+      "bytes": 1237,
+      "sha256": "9304e624c48e318d394e2f1af0d04c5b3ceb8174d26985daf5ad1de5ba821c39"
     },
     {
       "path": "provenance/RECORDED_ENVIRONMENT_V0_2.json",

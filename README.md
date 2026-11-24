@@ -34,6 +34,13 @@ v0.3.3, with no scientific change. The prior v0.3.3 files remain as historical
 copies. No human specialist peer review or journal acceptance is claimed. The
 older BSD calculator is a separate work; its DOI does not identify this census.
 
+## Journal submission status
+
+A manuscript based on preprint v0.3.4 was submitted to *Research in Number
+Theory* on 23 November 2026. This is a submission record; journal acceptance
+has not been reported. The published preprint and Study V0.2 retain their
+existing versions and DOIs. See the [submission provenance record](provenance/JOURNAL_SUBMISSION.json).
+
 ## Contents and evidence
 
 `code/` includes the ten scientific code files copied **byte for byte** from
@@ -88,8 +95,14 @@ relicensed by these notices. Preserve upstream attribution and notices.
 
 **Competing interests:** The author declares no competing interests.
 
-**AI assistance:** ChatGPT assisted with drafting and reconciliation; Claude
-developed and executed the study pipeline and repairs; Kimi reran and reviewed
-the outputs. These are AI-assisted technical checks, not human peer review.
-The manuscript contains the full role and shared-engine disclosure. Toni
-Mladenovski is the sole human author and retains responsibility for the work.
+**AI assistance:** ChatGPT (OpenAI) assisted with manuscript organization and
+drafting from author-supplied material, review reconciliation, input-hash checks,
+and checks of stored-data summaries and reference quantities. Claude (Anthropic)
+developed and executed the V0.1/V0.2 study pipeline and repairs, including PARI
+calculations. Kimi (Moonshot AI) reran V0.2 and checked its outputs. Kimi and
+Claude also reviewed an earlier manuscript version. Claude's software review
+shares authorship with the pipeline; the rerun and direct-GP checks share the
+PARI height engine. These are AI-assisted technical checks, not human specialist
+peer review. The manuscript contains the full role and verification disclosure.
+Toni Mladenovski is the sole human author and retains responsibility for the
+manuscript and conclusions. No AI system is listed as an author.

@@ -1,0 +1,26 @@
+{
+  "record_type": "journal submission provenance",
+  "journal": "Research in Number Theory",
+  "status_at_recorded_confirmation": "SUBMITTED",
+  "submission_date": "2026-11-23",
+  "submission_date_timezone": "America/New_York",
+  "evidence_scope": "Submission confirmation recorded in the author-assisted submission session; this record does not assert journal acceptance or a subsequent editorial decision.",
+  "manuscript_title": "A Reproducible Census of Rank-Two Mordell–Weil Lattice Shapes for Elliptic Curves of Conductor Below 50,000",
+  "author": "Toni Mladenovski",
+  "orcid": "0009-0009-8343-662X",
+  "affiliation": "Independent researcher",
+  "location": "Tobyhanna, Pennsylvania, United States",
+  "underlying_preprint": {
+    "version": "0.3.4",
+    "doi": "10.5281/zenodo.24484370"
+  },
+  "underlying_study": {
+    "version": "0.2",
+    "doi": "10.5281/zenodo.24484435"
+  },
+  "submitted_source": {
+    "filename": "manuscript.tex",
+    "sha256": "23d8aa148678d76d958176d6ae316c32fc68ec1635513f8ee0c5fc8ebcdb9bf4"
+  },
+  "update_scope": "Documentation of submission status and AI roles. No scientific code, inputs, stored results, published preprint files, component licenses, or frozen source snapshots are changed."
+}
